@@ -54,10 +54,10 @@
         
     </abstract>
     <deliverables>
-        <deliverable path="https://github.com/xicon73/PRI/Teste">Github</deliverable>
-        <deliverable path="https://github.com/xicon73/PRI/tree/master/ex1">Exercício 1</deliverable>
-        <deliverable path="https://github.com/xicon73/PRI/tree/master/ex2">Exercício 2</deliverable>
-        <deliverable path="https://github.com/xicon73/PRI/tree/master/ex2/respostas">Respostas do exercício 2</deliverable>
+        <deliverable path="https://github.com/xicon73/EXAME-PRI/Teste">Github</deliverable>
+        <deliverable path="https://github.com/xicon73/EXAME-PRI/tree/master/ex1">Exercício 1</deliverable>
+        <deliverable path="https://github.com/xicon73/EXAME-PRI/tree/master/ex2">Exercício 2</deliverable>
+        <deliverable path="https://github.com/xicon73/EXAME-PRI/tree/master/ex2/respostas">Respostas do exercício 2</deliverable>
     </deliverables>
 </pr>
 
