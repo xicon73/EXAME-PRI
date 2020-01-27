@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <keyname>PRI_Exame</keyname>
+        <title>Exame da UC de Processamento e Representação de Informação</title>
+        <subtitle>Perfil de PLC 2019/2020</subtitle>
+        <bdate>2020-01-27</bdate>
+        <edate>2020-01-27</edate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>
+            <homepage>http://www4.di.uminho.pt/~jcr/</homepage>
+            <email>jcr@di.uminho.pt</email>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <name>Francisco Sampaio da Costa</name>
+            <identifier>A70922</identifier>
+            <email>a70922@alunos.uminho.pt</email>
+        </member>
+    </workteam>
+    <abstract>
+        
+        <p>
+            No primeiro exercício, converti o xml dado para um json e verifiquei a existêcia de erros. Não encontrando, procedi à criação da base de dados "obras", e importei o dataset para a base de dados, através do comando <b> mongoimport --db obras --collection obras --file dataset.json --jsonArray </b>
+        </p>
+
+        <p>
+            No segundo exercício, comecei por explorar as API's e responder às questões. Para a segunda, desenvolvi um servidor de interface, utilizando a framework pug.
+        </p>
+        
+        <p>
+            Questões:
+        </p>
+        
+        <p>
+            Quantos Diplomas Legislativos estão catalogados? (pista: na API há uma rota que dá este número diretamente) - 1624
+        </p>
+        <p>
+            Quantos diplomas do tipo "Portaria" estão catalogados? - 401
+        </p>
+        <p>
+            Que processos são regulados pelo diploma "Lei 9/2009"? - "Reconhecimento de títulos profissionais obtidos no estrangeiro" , "Seleção e seriação para ingresso no ensino ou formação" , "Realização de atividades de ensino ou formação" 
+        </p>
+        <p>
+            Que diplomas legislativos estão associados ao processo "c300.10.005"? - "104/2011" , "149/2012" , "18/2008" , "4/2015" , "102/2009" , "3/2014"
+        </p>
+        
+        <p>
+            No que toca ao servidor de interface, foi utilizado o módulo <b>axios</b>, permitindo fazer questões à API de forma simples e posteriormente foi efetuado o tratamento dos dados de forma gráfica. Na pagína inicial aparecem todos os diplomas, permitindo abrir um diploma numa nova página, apresentando a informação do mesmo, bem como os processos que regula e as entidades que são responsáveis pela sua publicação
+        </p>
+
+        
+        
+    </abstract>
+    <deliverables>
+        <deliverable path="https://github.com/xicon73/PRI/Teste">Github</deliverable>
+        <deliverable path="https://github.com/xicon73/PRI/tree/master/ex1">Exercício 1</deliverable>
+        <deliverable path="https://github.com/xicon73/PRI/tree/master/ex2">Exercício 2</deliverable>
+        <deliverable path="https://github.com/xicon73/PRI/tree/master/ex2/respostas">Respostas do exercício 2</deliverable>
+    </deliverables>
+</pr>
+
+
