@@ -1,0 +1,83 @@
+[
+    {
+        "número":   1,
+        "query": "http://clav-api.dglab.gov.pt/api/indicadores/leg",
+        "resposta": 1624
+    },
+    {
+        "número":  2,
+        "query": "http://clav-api.dglab.gov.pt/api/legislacao",
+        "reposta": 401
+    },
+    {
+        "número": 3,
+        "query": "http://clav-api.dglab.gov.pt/api/legislacao/leg_BYfaAZW8qst3DZuwmKofj/processos",
+        "id":       "leg_BYfaAZW8qst3DZuwmKofj",
+        "resposta": [
+            {
+                "codigo": "450.10.442",
+                "titulo": "Reconhecimento de títulos profissionais obtidos no estrangeiro",
+                "id":     "c450.10.442"
+            },
+            {
+                "codigo": "750.10.001",
+                "titulo": "Seleção e seriação para ingresso no ensino ou formação",
+                "id":     "c750.10.001"
+            },
+            {
+                "codigo": "750.20.600",
+                "titulo": "Realização de atividades de ensino ou formação",
+                "id":     "c750.20.600"
+            }
+        ]
+    },
+    {
+        "número":  4,
+        "query": "http://clav-api.dglab.gov.pt/api/classes/c300.10.005/legislacao?apikey=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1Nzg4NjAwNTQsImV4cCI6MTU4MTQ1MjA1NH0.HIlH4_Ao6504qaLhhbZ2_OtDzaZaG5FeYy-Yc2d9lwQ", 
+        "resposta": 
+        [
+            {
+                "tipo": "DL",
+                "sumario": "Aprova o regime jurídico da contratação pública nos domínios da defesa e da segurança, transpondo a Diretiva n.º 2009/81/CE, do Parlamento e do Conselho, de 13 de Julho, relativa à coordenação dos processos de adjudicação de determinados contratos de empreitada, contratos de fornecimento e contratos de serviços por autoridades ou entidades adjudicantes nos domínios da defesa e da segurança, e que altera as Diretivas n.os 2004/17/CE e 2004/18/CE",
+                "numero": "104/2011",
+                "idLeg": "leg_SPQ6RPHjDULNR7vx-TR7Q",
+                "id": "http://jcr.di.uminho.pt/m51-clav#leg_SPQ6RPHjDULNR7vx-TR7Q"
+            },
+            {
+                "tipo": "DL",
+                "sumario": "Aprova o Código dos Contratos Públicos que estabelece a disciplina aplicável à contratação pública e o regime substantivo dos contratos públicos que revistam a natureza de contrato administrativo",
+                "numero": "149/2012",
+                "idLeg": "leg_rmw3eKeQndbdIQn8Beyu1",
+                "id": "http://jcr.di.uminho.pt/m51-clav#leg_rmw3eKeQndbdIQn8Beyu1"
+            },
+            {
+                "tipo": "DL",
+                "sumario": "Código dos Contratos Públicos (CCP)",
+                "numero": "18/2008",
+                "idLeg": "leg_DW4VStPrIyHqe12gS73u6",
+                "id": "http://jcr.di.uminho.pt/m51-clav#leg_DW4VStPrIyHqe12gS73u6"
+            },
+            {
+                "tipo": "DL",
+                "sumario": "No uso da autorização legislativa concedida pela Lei n.º 42/2014, de 11 de julho, aprova o novo Código do Procedimento Administrativo",
+                "numero": "4/2015",
+                "idLeg": "leg_0ZQ15pYZ8XGW8ks7mPD7Y",
+                "id": "http://jcr.di.uminho.pt/m51-clav#leg_0ZQ15pYZ8XGW8ks7mPD7Y"
+            },
+            {
+                "tipo": "Lei",
+                "sumario": "Regime jurídico da promoção da segurança e saúde no trabalho",
+                "numero": "102/2009",
+                "idLeg": "leg_8ZIOJDonnBbEHkhVysR7W",
+                "id": "http://jcr.di.uminho.pt/m51-clav#leg_8ZIOJDonnBbEHkhVysR7W"
+            },
+            {
+                "tipo": "Lei",
+                "sumario": "Procede à segunda alteração à Lei n.º 102/2009, de 10 de setembro, que aprova o regime jurídico da promoção da segurança e saúde no trabalho, e à segunda alteração ao Decreto-Lei n.º 116/97, de 12 de maio, que transpõe para a ordem jurídica interna a Diretiva n.º 93/103/CE, do Conselho, de 23 de novembro, relativa às prescrições mínimas de segurança e de saúde no trabalho a bordo dos navios de pesca",
+                "numero": "3/2014",
+                "idLeg": "leg_wEMXUNiLzav0nWrc6lnEe",
+                "id": "http://jcr.di.uminho.pt/m51-clav#leg_wEMXUNiLzav0nWrc6lnEe"
+            }
+        ]
+    }
+]

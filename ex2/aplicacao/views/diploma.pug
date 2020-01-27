@@ -1,0 +1,50 @@
+extends layout
+
+block content
+    .w3-card-4
+        header.w3-container.w3-black
+            h2= dip.numero
+    .w3-container
+        p 
+            b Data 
+            = dip.data
+        p 
+            b Sumário 
+            = dip.sumario
+        p 
+            b link 
+            = dip.link
+        p 
+            b Estado 
+            = dip.estado
+    hr
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-blue
+            h1 Lista de Entidades responsáveis pela sua publicação
+            .w3-container
+            table.w3-table-all
+                tr.w3-hover-blue
+                    th Sigla
+                    th ID
+    hr 
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-blue
+            h1 Lista de Processos que regula
+            .w3-container
+            table.w3-table-all
+                tr.w3-hover-blue
+                    th Código
+                    th Título
+                    th ID
+                each p in pro
+                    tr.w3-hover-blue
+                        td= p.codigo
+                        td= p.titulo
+                        td= p.id
+    hr
+    form(method="get" action=`/`)
+        button.w3-btn.w3-blue.w3-section(style="width: 100%" type="submit") 
+            b Início
+                  
